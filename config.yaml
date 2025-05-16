@@ -1,0 +1,11 @@
+   name: ser2net
+   version: "1.0"
+   slug: ser2net
+   description: "Allows access to serial ports over TCP"
+   startup: "services"
+   part: "core"
+   resources:
+     - "/dev/ttyUSB0"  # Modify as necessary for your setup
+   options:
+     config: "/etc/ser2net.cfg"
+   schema: {}
